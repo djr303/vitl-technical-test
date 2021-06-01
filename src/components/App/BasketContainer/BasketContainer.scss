@@ -1,0 +1,53 @@
+@import '../../../styles/colors';
+
+.basket-container {
+    
+    padding-top: 20px;
+
+    h1 {
+        font-family: Sofia-Pro-Regular, Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        flex-flow: wrap;
+        flex: 0 1 auto;
+        justify-content: left;
+        position: relative;
+        left: -10px;
+        top: 0;
+
+        li {
+            width: 300px;
+            box-sizing: border-box;
+            margin: 0 10px;
+    
+
+            h4 {
+                padding: 10px 0 0 0;
+                font-family: Sofia-Pro-Regular, Arial, Helvetica, sans-serif;
+                font-size: 14px;
+            }
+        }
+    }
+
+    .button-container {
+        margin: 20px 0;
+    }
+
+    .placeholder {
+        border: 1px solid $mid-grey;
+        padding: 10px;
+        height: 200px;
+
+        h2 {
+            padding: 0 0 5px 0;
+            margin: 0;
+            font-family: Sofia-Pro-Regular, Arial, Helvetica, sans-serif;
+            font-size: 14px;
+        }
+    }
+}

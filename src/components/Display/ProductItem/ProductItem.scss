@@ -1,0 +1,55 @@
+@import '../../../styles/colors';
+
+.product-item-container {
+    padding: 20px;
+    background: #fff;
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom-width: 5px;
+    border-bottom-style: solid;
+    
+    .product-item {
+        border: 1px solid $mid-grey;
+        padding: 10px;
+
+        h2 {
+            padding: 0 0 5px 0;
+            margin: 0;
+            font-family: Sofia-Pro-Bold, Arial, Helvetica, sans-serif;
+            font-size: 18px;
+        }
+
+        h3 {
+            padding: 0 0 20px 0;
+            margin: 0;
+            font-family: Sofia-Pro-Regular, Arial, Helvetica, sans-serif;
+            font-size: 14px;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 16px;
+        }
+    }
+
+    &.vit-a {
+        border-bottom-color: $vit-A;
+    }
+
+    &.vit-c {
+        border-bottom-color: $vit-C;
+    }
+
+    &.vit-d {
+        border-bottom-color: $vit-D;
+    }
+
+    &.vit-ace {
+        border-bottom-color: $vit-ACE;
+    }
+
+    &.vit-czinc {
+        border-bottom-color: $vit-CZinc;
+    }
+}
+

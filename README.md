@@ -1,4 +1,6 @@
-# Vitl Technical test by David Roberts (david.j.roberts303@gmail.com)
+# Vitl technical test by David Roberts (david.j.roberts303@gmail.com)
+
+https://github.com/djr303/vitl-technical-test
 
 ### Environment, run and build information
 
@@ -8,26 +10,9 @@ Tested on NodeJS v14.17.0, Yarn v1.22.00 & Chrome v91.0.4472.77 (Official Build)
 
 `$ yarn && yarn start`
 
-### TODOs
+## Note on further work
 
-* Use Hooks
-
-* Use Material UI
-    * Default grid & component themes
-
-* Use Apollo client
-    * + Apollo REST
-
-* Basic responsive layout
-
-* Use Vitl logo
-
-* Basic rendering test
-
-* check all TOODs
-
-* Lint code base before submission
-
-* Check console for warning
-
-* Make notes on archiecture, implementation, performance, testing & design
+* I would consider a full set of unit test and browser automation tests
+* I would improve the responsive layout for all device sizes
+* I would add animation feedback on hover and user action
+* I would consider other data structure to improve performance on larger data sets

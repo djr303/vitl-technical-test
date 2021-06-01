@@ -1,0 +1,15 @@
+@import "../../../styles/colors";
+
+.error {
+    position: fixed;
+    top: calc(50% - 20px);
+    left: calc(50% - 20px);
+    circle {
+        fill: $mid-grey;
+        fill-opacity: 1;
+    }
+
+    path {
+        fill: $vibrant-yellow;
+    }
+}

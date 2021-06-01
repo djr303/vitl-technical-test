@@ -1,0 +1,13 @@
+@import '../../../styles/colors';
+
+.basket-icon {
+    path {
+        fill: $mid-grey;
+    }
+
+    text {
+        font-size: 200px;
+        line-height: 1.25;
+        fill: $vibrant-yellow;
+    }
+}
